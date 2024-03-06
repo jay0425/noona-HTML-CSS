@@ -103,12 +103,18 @@ footer {
 }
 
 .second-line-first {
-  text-decoration: none;
-  padding: 0 3px;
   color: #1a0dab;
 }
 
-.second-line-first:hover {
+.second-line-item {
+  text-decoration: none;
+}
+
+.second-line-first .second-line-item {
+  margin-right: 5px;
+}
+
+.second-line-item:hover {
   text-decoration: underline;
 }
 
@@ -120,6 +126,10 @@ footer {
   color: #1a0dab;
 }
 
-.second-line-second:hover {
+.second-line-second .second-line-item {
+  margin-left: 5px;
+}
+
+.second-line-second > a:hover {
   text-decoration: underline;
 }
