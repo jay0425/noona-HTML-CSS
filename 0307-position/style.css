@@ -1,0 +1,32 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.locate {
+  position: sticky;
+  left: 30px;
+  top: 30px;
+}
+
+/* 
+
+relative: 있는 자리 기준에서 옮김
+absolute: 부모 절대값 기준으로 옮김. (내가 속한 부모 태그 기준으로 주어진 픽셀로 움직임)
+static: 웹 브라우저의 기본값. (left, top, tight, bottom 을 사용 안함)
+fixed: absolute와 비슷하지만 브라우저 고정값.
+sticky: 브라우저 고정값.
+
+*/
