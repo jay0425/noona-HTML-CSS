@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-outline-success {
+  color: #e5aaa3;
+  border-color: #e5aaa3;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #e5aaa3;
+  border-color: #e5aaa3;
+}
+
+.card {
+  transition: all 0.2s linear;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
