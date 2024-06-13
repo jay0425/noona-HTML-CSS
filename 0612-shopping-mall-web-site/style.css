@@ -24,3 +24,17 @@ body {
 .card:hover {
   transform: scale(1.1);
 }
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-col a {
+  color: white;
+  text-decoration-line: none;
+}
+
+.first-line {
+  border-bottom: 1.3px solid #392d23;
+}
