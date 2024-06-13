@@ -38,3 +38,21 @@ footer {
 .first-line {
   border-bottom: 1.3px solid #392d23;
 }
+
+.footer-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+  .footer-col {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1.3px solid #392d23;
+  }
+  .footer-mobile {
+    display: block;
+  }
+}
